@@ -29,6 +29,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'WFapp/bin/release'
+    PathtoPublish: 'WFapp/WFapp/bin/release'
     ArtifactName: 'wf-app'
     publishLocation: 'Container'
